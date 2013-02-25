@@ -32,7 +32,7 @@ hierbei auch einige Kritikpunkte, die zu Problemen führen können,
 sofern man sich an die Materialien hält. Aus diesem Grunde sind in
 diesem Abschnitt einige Mängel kurz geschildert.
 
-*** [[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/547/VWA-Formale-Richtlinien.pdf][Richtinien zu den Formalen Kriterien]]
+*** Richtinien zu den Formalen Kriterien ([[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/547/VWA-Formale-Richtlinien.pdf][PDF]])
 
 Die formalen Kriterien sind nach typographischen Kriterien teilweise
 überholt: einseitiges Dokument, typographisch bedenkliche
@@ -50,7 +50,7 @@ sind gottseidank nicht zwingend vorgeschrieben.
 Aber es ist zu begrüßen, dass überhaupt Dokumente „zum Anhalten“
 erstellt wurden.
 
-*** [[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/533/02-VWA-Blindtext-mit-Anhang.pdf][VWA Beispieldokument]]
+*** VWA Beispieldokument ([[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/533/02-VWA-Blindtext-mit-Anhang.pdf][PDF]])
 
 Das Mindestumfang-Dokument hat leider bei den formalen Kriterien
 einige Mängel: Seitenzahlen sind recht ungewöhnlich positioniert,
@@ -265,6 +265,18 @@ Beilegen dieser Dokumente.
 Weitere optionale Bausteine (Glossar, Abkürzungsverzeichnis, ...)
 nach Belieben gemäß der Richtlinien einfügen.
 
+*** Austausch des Logos für die Titelseite
+
+In der Datei ~figures/institution.pdf~ befindet sich derzeit das Logo
+der TU Graz. Wenn du diese Datei ersetzt mit ~institution.pdf~ oder
+~institution.png~ aus deinem Schul-Logo ersetzt, so wird dies auf der
+Titelseite berücksichtigt.
+
+*HINWEIS*: Computer-generierte Grafiken wie Logos oder Screenshots
+bitte *niemals* im JPEG-Format speichern. Das ergibt sehr schlechte
+Qualität, da JPEG ein verlustbehaftetes Format ausschließlich für
+Fotos ist.
+
 *** Inhalte schreiben
 
 Da nun das Aussehen den formale VWA-Kriterien entspricht, fehlt nur
@@ -320,6 +332,16 @@ LaTeX-Hindernisse sind ärgerlich. Jedoch ist das, was man zur
 deren Beseitigung lernt, ein Wissen, das Bestand hat. Jeder
 LaTeX-Experte ist nicht von vorn herein Experte gewesen. Sie haben
 durch ihre Fehler nur bereits mehr Erfahrung gemacht.
+
+** Wie kann ich Fehler oder Vorschläge zu dieser Vorlage kommunizieren?
+
+Wenn du dich mit github auskennst, so kannst du mir gerne einen
+[[https://github.com/novoid/LaTeX-KOMA-VWA/pulls][pull-request]] zukommen lassen oder [[https://github.com/novoid/LaTeX-KOMA-VWA/issues][ein issue erstellen]].
+
+Ansonsten erreichst du mich per Email unter: LaTeX ät Karl Minus Voit
+Punkt at
+
+Sofern es mein Zeitbudget erlaubt, setze ich Verbesserungen gerne um.
 
 ** Lizenz
 
