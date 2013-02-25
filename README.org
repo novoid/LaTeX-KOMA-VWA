@@ -1,0 +1,273 @@
+
+* Vorwissenschaftliche Arbeit mit LaTeX
+
+** Was soll das hier?
+
+Ab 2014 müssen Österreichs AHS-Schüler im Zuge der Reifeprüfung
+„Vorwissenschaftliche Arbeiten“ (kurz: VWA) erstellen. Vom [[http://www.mnukk.gv.at][Ministerium]]
+gibt es diverse Informationen dazu auf: http://www.ahs-vwa.at/
+
+Neben dem Klassiker Microsoft Word [[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/1079/WORD_und_VWA.pdf][(Hinweise zu Word und VWA]]) gibt es
+noch zahlreiche [[http://windows.iusethis.com/tag/wordprocessor][andere Softwareprodukte]], die das Erstellen einer VWA
+ermöglichen.
+
+Wissenschaftliche Dokumente wie [[https://de.wikipedia.org/wiki/Wissenschaftliche_Publikation][Papers]] oder Abschlussarbeiten für
+Bachelor, Master oder gar eine Dissertation werden sehr oft mit LaTeX
+(sprich: „latech“) gesetzt. Da LaTeX ein Profi-Werkzeug ist, erfordert
+es einigen Einarbeitungsaufwand.
+
+*HINWEIS*: Ohne entsprechendes LaTeX-Hintergrundwissen, das zum
+Beispiel hervorragend von http://LaTeX.TUGraz.at vermittelt wird, ist
+diese Vorlage hier *nicht* zu empfehlen.
+
+Wer jedoch bereits LaTeX-Wissen vorweisen kann, der wird vermutlich
+mit der hier beschriebenen Vorlage ein ausgezeichnetes Ergebnis mit
+minimalem Aufwand erreichen.
+
+** Kritik an diversen Dokumenten vom Ministerium
+
+Auf http://www.ahs-vwa.at/ gibt es zahlreiche Materialien, die das
+Regelwerk rund um die VWA erklären und unterstützen. Leider gibt es
+hierbei auch einige Kritikpunkte, die zu Problemen führen können,
+sofern man sich an die Materialien hält. Aus diesem Grunde sind in
+diesem Abschnitt einige Mängel kurz geschildert.
+
+*** [[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/547/VWA-Formale-Richtlinien.pdf][Richtinien zu den Formalen Kriterien]]
+
+Die formalen Kriterien sind nach typographischen Kriterien teilweise
+überholt: einseitiges Dokument, typographisch bedenkliche
+Seitenrandvorgaben, und so weiter. So etwas ist leider häufig der
+Fall, da keine typographisch ausgebildeten Personen an der Definition
+entscheidend mitgearbeitet haben oder andere Kriterien als wichtiger
+definiert wurden.
+
+Die PDF-Datei ist durch ungenaue Übernahme von den offiziellen
+Vorgaben leider nur als fehlerhaft zu bezeichnen: Flattersatz ist im
+Gegensatz zu den Angaben sicher nicht zu bevorzugen (da wurde der Text
+falsch interpretiert), 1,5-zeiliger Zeilenabstand und Schriftgröße 12
+sind gottseidank nicht zwingend vorgeschrieben.
+
+Aber es ist zu begrüßen, dass überhaupt Dokumente „zum Anhalten“
+erstellt wurden.
+
+*** [[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/533/02-VWA-Blindtext-mit-Anhang.pdf][VWA Beispieldokument]]
+
+Das Mindestumfang-Dokument hat leider bei den formalen Kriterien
+einige Mängel: Seitenzahlen sind recht ungewöhnlich positioniert,
+fehlende (aber vorgeschriebene) Bezüge auf Abbildungen im Text,
+inkonsistente Abbildungsbeschriftungen (Beschriftung oberhalb und
+unterhalb gemischt), inkonsistente Zeilenabstände, sehr „reduziertes“
+Literaturverzeichnis (fehlende Verlage, ISBN, und so weiter).
+
+Es ist leider so, dass dieses Vorzeigedokument gemäß den Kriterien
+aus der [[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung mit zahlreichen Zitaten aus den betreffenden
+Gesetzesvorlagen]] in vielen Punkten nicht entspricht.
+
+** Was macht diese Vorlage anders?
+
+Weil hier [[http://en.wikipedia.org/wiki/LaTeX][LaTeX]] mit [[http://www.komascript.de/][KOMA Script]] verwendet wird, gibt es viele
+Vorteile für die Autoren:
+
+- *Konzentration auf den Inhalt und nicht die Form*
+- konsistente Form
+- mehr Freude und Unterstützung beim Schreiben der Arbeit
+- keine lästigen Word-Fehler wie fehlerhafte Inhaltsverzeichnisse
+  oder Datenverlust durch Bugs
+- typographisch ansprechendes Ergebnis
+- die [[http://latex.tugraz.at/latex/warum][weiteren üblichen Vorteile von LaTeX]]
+
+Bei der Form wurde die [[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung mit zahlreichen Zitaten aus den
+betreffenden Gesetzesvorlagen]] berücksichtigt und im Sinne eines
+möglichst schönen Ergebnisses interpretiert.
+
+** Generelles zu dieser Vorlage
+
+Dieses github-Repository enthält keine VWA-Vorlage. Allerdings folgt
+weiter unten eine Anleitung, womit eine andere professionelle
+LaTeX-Vorlage für eine VWA in wenigen einfachen Schritten adaptiert.
+
+Auf https://github.com/novoid/LaTeX-KOMA-template wird eine Vorlage
+bereitgestellt, die (nicht nur) von vielen Studierenden an der [[http://www.TUGraz.at][TU Graz]]
+für Abschlussarbeiten (Bachelor bis Doktorarbeit) verwendet wird. Sie
+ist [[https://github.com/novoid/LaTeX-KOMA-template/blob/master/Template-Documentation.pdf][sehr gut dokumentiert]] und so flexibel ausgelegt, sodass damit
+ebenso eine VWA erstellt werden kann.
+
+** Anleitung
+
+*** Beschaffen der [[https://github.com/novoid/LaTeX-KOMA-template][LaTeX-Vorlage]]
+
+In den meisten Fällen wird wohl der [[https://github.com/novoid/LaTeX-KOMA-template/archive/master.zip][Download durch ZIP]] die einfachste
+Variante sein.
+
+Sofern [[https://de.wikipedia.org/wiki/Git][git]] bzw. github-Wissen vorhanden ist, kann die Vorlage
+alternativ durch folgenden Befehl heruntergeladen werden:
+: git clone https://github.com/novoid/LaTeX-KOMA-template.git Meine-VWA
+
+Wie bei LaTeX üblich, empfiehlt sich ein eigener Ordner für das
+LaTeX-Dokument mit all seinen Dateien und Unterordnern.
+
+*** Lesen der Dokumentation
+
+Die Vorlage ist ausgelegt auf US-Amerikanisch. Deshalb ist die
+Vorgabe (vorerst) Englisch und auch die Dokumentation der Vorlage ist
+in englischer Sprache verfasst: [[https://github.com/novoid/LaTeX-KOMA-template/blob/master/Template-Documentation.pdf][Template-Documentation.pdf]]
+
+Nichtsdestotrotz ist so eine Vorlage durchaus ein komplexes
+Gefüge. Um nicht unabsichtlich die Form oder die Funktionalität
+negativ zu beeinträchtigen, sollen wenige Abschnitte der
+Dokumentation gelesen werden.
+
+Hier ist noch keine aktive Änderung der Vorlage notwendig, da für
+eine VWA, alle Anpassungen in diesem Abschnitt erklärt werden.
+
+*** Prüfen, ob „biber“ funktioniert
+
+Da biblatex/biber eine verhältnismäßig moderne Art der
+Literaturverzeichnisgenerierung ist, haben manche LaTeX-Distributionen
+(Installation oder Editor) leider noch Probleme.
+
+HINWEIS: Die Installation von biber kann alternativ auch mit einem
+biber-Minimaldokument wie [[https://github.com/novoid/koma-biber-minimal-example][das hier]] überprüft werden.
+
+Die Vorlage sollte bereits in diesem (unangepassten) Zustand
+kompilieren und eine PDF-Datei erzeugen.
+
+Die Datei [[https://github.com/novoid/LaTeX-KOMA-template/blob/master/Template-Documentation.pdf][Template-Documentation.pdf]] erklärt, wie das funktioniert. Es
+ist darauf zu achten, dass ein Literaturverzeichnis und entsprechende
+Referenzen erstellt werden. Wenn die Zitate nur aus den (fett
+gesetzten) Zitatbezeichnungen (key) bestehen, hat es nicht
+funktioniert.
+
+*** Anpassungen „main.tex“
+
+In der Datei „main.tex“ sind im obersten Bereich alle allgemeinen
+Einstellungen der Vorlage untergebracht. Dieser Teil beschreibt alle
+notwendigen Anpassungen, die von der Standardwahl abweichen.
+
+**** Einseitiges Dokument
+
+: \newcommand{\mylaterality}{twoside}
+wird auf folgende Zeile geändert:
+: \newcommand{\mylaterality}{oneside}
+
+**** Bindekorrektur
+
+: \newcommand{\myBCOR}{0mm}
+
+Statt „0mm“ kann hier ein Wert eingegeben werden wie zum Beispiel
+„12mm“ oder „1cm“.
+
+Die [[http://www.golatex.de/bindekorrektur-t4189.html][Wahl der korrekten Bindekorrektur]] hängt ausschließlich von der Art
+und Weise ab, wie das Werk gebunden wird.
+
+**** Schriftgröße (passt)
+
+Die Vorauswahl mit
+: \newcommand{\myfontsize}{12pt}
+entspricht bereits der Vorgabe.
+
+**** Zeilenabstand
+
+Die Vorauswahl definiert einen 100 Prozent Zeilenabstand, auf die auch
+die Schriften ausgelegt wurden:
+: \newcommand{\mylinespread}{1.0} 
+
+Statt „1.0“ schreibt hier wegen „besserer Lesbarkeit“ das Ministerium
+„1.5“ (150 Prozent) vor.
+
+**** Sprache
+
+Für ein deutschsprachiges Werk ist die Vorauswahl
+: \newcommand{\mylanguage}{ngerman,american}
+durch Änderung der Reihenfolge auf folgende Zeile zu ändern:
+: \newcommand{\mylanguage}{american,ngerman}
+
+Die zuletzt angeführte Sprache ist die Standardsprache, wobei
+„ngerman“ die neue deutsche Rechtschreibung aktiviert. Für alle
+anderen Sprachen ist hier die Paketdokumentation vom [[http://www.ctan.org/pkg/babel][babel-Paket]] zu
+Rate zu ziehen.
+
+**** Zitierstil (passt)
+
+Das Zitieren mit biblatex macht die Anpassungen des Stils sehr
+einfach. Diese Vorlage verwendet „authoryear“, das den Vorgaben vom
+Ministerium entspricht:
+: \newcommand{\mybiblatexstyle}{authoryear}
+
+Alternative Stile finden sich in der wunderbaren [[http://www.math.upenn.edu/tex_docs/latex/biblatex/biblatex.pdf][Dokumentation von
+biblatex]].
+
+**** VWA-Titelseite
+
+: \newcommand{\mytitlepage}{template/title_Thesis_TU_Graz}
+
+FIXXME
+
+**** Metadaten
+
+Startend mit der Zeile
+: \newcommand{\myauthor}{AUTHOR}
+werden die Metadaten des Dokumentes definiert.
+
+Folgende Variablen werden für die VWA benötigt:
+
+- FIXXME
+
+**** Selbstständigkeitserklärung
+
+Die voreingestellte Erklärung ...
+: \input{template/declaration_TU_Graz}
+... wird herausgelöscht. Stattdessen kommt am Ende des Dokumentes vor
+...
+: \end{document}
+... die Selbstständigkeitserklärung nach Wortlaut des Ministeriums hinein:
+
+: \chapter*{Selbstständigkeitserklärung}
+: Ich erkläre, dass ich die vorwissenschaftliche Arbeit eigenständig
+: angefertigt und nur die im Literaturverzeichnis angeführten Quellen
+: und Hilfsmittel benutzt habe.
+: \vfill
+: \newcommand{\mysignatureblock}[3]{%
+:   \begin{tabular}{llp{2em}l} 
+:   #1 & \hspace{5cm}        & & \hspace{6cm} \\\cline{2-2}\cline{4-4}
+:      &                     & & \\[-3mm]
+:      & {\footnotesize #2}  & & {\footnotesize #3}
+:   \end{tabular}
+: }
+: \mysignatureblock{MEINORT, am}{Datum}{Unterschrift}
+: \vfill\vfill
+
+**** Dokumenteinteilung
+
+Abweichend von den VWA-Vorgaben hat die Vorlage eine andere generelle
+Struktur. Die dadurch notwendigen Anpassungen sind folgende:
+
+Die Zeilen für den Abstract ...
+: \cleardoublepage
+: \addcontentsline{toc}{chapter}{Abstract}
+: \include{abstract}              %% Abstract
+... müssen vor das Inhaltsverzeichnis ...
+: \tableofcontents
+... verschoben werden.
+
+Das optionale Vorwort kann dahinter gemäß dem Abstract-Beispiel
+erstellt werden.
+
+Das Abbildungsverzeichnis ...
+: \listoffigures
+... wird hinter das Literaturverzeichnis ...
+: \printbibliography
+... verschoben.
+
+Im Anhang (vor der Selbstständigkeitserklärung) werden dann die
+Begleit- und Betreuungsprotokolle eingebunden. Soweit hier die
+Richtlinie korrekt interpretiert wird, genügt auch ein schlichtes
+Beilegen dieser Dokumente.
+
+Weitere optionale Bausteine (Glossar, Abkürzungsverzeichnis, ...)
+nach Belieben gemäß der Richtlinien einfügen.
+
+** Lizenz
+
+„Vorwissenschaftliche Arbeit mit LaTeX“ is licensed under a [[https://creativecommons.org/licenses/by-nc-sa/3.0/][Creative
+Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License]].
