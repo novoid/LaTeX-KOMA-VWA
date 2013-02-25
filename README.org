@@ -146,8 +146,8 @@ notwendigen Anpassungen, die von der Standardwahl abweichen.
 
 **** Einseitiges Dokument
 
-: \newcommand{\mylaterality}{twoside}
-wird auf folgende Zeile geändert:
+Die Zeile mit der Definition von „\mylaterality“ wird auf folgende
+Zeile geändert:
 : \newcommand{\mylaterality}{oneside}
 
 **** Bindekorrektur
@@ -169,17 +169,15 @@ entspricht bereits der Vorgabe.
 **** Zeilenabstand
 
 Die Vorauswahl definiert einen 100 Prozent Zeilenabstand, auf die auch
-die Schriften ausgelegt wurden:
-: \newcommand{\mylinespread}{1.0} 
-
-Statt „1.0“ schreibt hier wegen „besserer Lesbarkeit“ das Ministerium
-„1.5“ (150 Prozent) vor.
+die Schriften ausgelegt wurden. Statt „1.0“ schreibt hier wegen
+„besserer Lesbarkeit“ das Ministerium (leider) „1.5“ (150 Prozent)
+vor:
+: \newcommand{\mylinespread}{1.5} 
 
 **** Sprache
 
-Für ein deutschsprachiges Werk ist die Vorauswahl
-: \newcommand{\mylanguage}{ngerman,american}
-durch Änderung der Reihenfolge auf folgende Zeile zu ändern:
+Für ein deutschsprachiges Werk ist die Vorauswahl durch Änderung der
+Reihenfolge auf folgende Zeile zu ändern:
 : \newcommand{\mylanguage}{american,ngerman}
 
 Die zuletzt angeführte Sprache ist die Standardsprache, wobei
@@ -266,6 +264,62 @@ Beilegen dieser Dokumente.
 
 Weitere optionale Bausteine (Glossar, Abkürzungsverzeichnis, ...)
 nach Belieben gemäß der Richtlinien einfügen.
+
+*** Inhalte schreiben
+
+Da nun das Aussehen den formale VWA-Kriterien entspricht, fehlt nur
+noch das Wichtigste: der Inhalt.
+
+Hier wird empfohlen, sich vorerst nur auf die Erstellung des Textes
+zu konzentrieren. Das ständige Kompilieren des PDF-Ergebnisses lenkt
+dabei grossteils nur ab und sollte daher nur sporadisch - zum
+Beispiel am Ende eines Kapitels - erledigt werden.
+
+Wir wünsche gutes Gelingen bei der VWA!
+
+** Hilfe
+
+Wenn bei LaTeX mal was nicht so funktioniert, wie es soll, dann gibt
+es zahlreiche Möglichkeiten, an Hilfe zu kommen. Wir schlagen
+folgende Reihenfolge vor:
+
+1. Fehlermeldung interpretieren lernen und selbst recherchieren
+   - Eine Internet-Suchmaschine hilft hier ungemein, indem man die
+     konkrete Fehlermeldung in Anführungszeichen eingibt.
+2. Kollegen fragen
+   - Erfahrenere LaTeX-Benutzer sind eine wunderbare Quelle, die man
+     zum Lernen nutzen sollte. Dabei ist zu beachten, dass ein
+     gewisses Maß an Fragen nicht überstrapaziert werden
+     soll. Die Hilfe eines Kollegen ist nicht kostenlos - sie oder er
+     investiert Zeit. Bitte niemals vergessen.
+3. Dokumentation
+   - Auf [[latex.tugraz.at/dokumentation/links][Webseiten wie diese]] werden gute Dokumentationsquellen
+     verlinkt. Ein [[http://latex.tugraz.at/dokumentation/buchempfehlungen][LaTeX-Buch]] kann man kaufen, muss man aber
+     nicht. Es gibt genügend LaTeX-Hilfestellungen im Internet,
+     sofern man des Englischem mächtig ist.
+4. Experten fragen
+   - Wer sich mit dem [[https://de.wikipedia.org/wiki/Usenet][Usenet]] auskennt, der kann zum Beispiel in
+     news:tu-graz.latex zahlreiche Experten mit einer gut
+     formulierten Frage um Hilfe bitten.
+     - [[http://michael-prokop.at/internet/newsgroup.html][Einstiegsinformationen Usenet]]
+     - [[http://portal.tugraz.at/portal/page/portal/zid/netzwerk/dienste/newsgroups][Infos über die Newsgroups der TU Graz]]
+
+*** Wie man eine Frage richtig stellt
+
+Da man sich von Experten eine gute Antwort erhofft, sollte man auch
+so freundlich sein, und die Frage so stellen, dass den Experten keine
+unnötige Arbeit entsteht. Das erhöht die Antwortwahrscheinlichkeit.
+
+Dazu muss man lernen, wie man ein Minimalbeispiel erstellt. Das wird
+auf http://minimalbeispiel.de/ erklärt.
+
+Witzigerweise kommt man dabei drauf, dass durch die Erstellung eines
+Minimalbeispiels, die Lösung zumeist selbst entdeckt wird.
+
+LaTeX-Hindernisse sind ärgerlich. Jedoch ist das, was man zur
+deren Beseitigung lernt, ein Wissen, das Bestand hat. Jeder
+LaTeX-Experte ist nicht von vorn herein Experte gewesen. Sie haben
+durch ihre Fehler nur bereits mehr Erfahrung gemacht.
 
 ** Lizenz
 
