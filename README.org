@@ -331,6 +331,15 @@ Wird kein Schul-Logo verwendet, so muss die Datei
 : \includegraphics[width=3cm]{figures/institution}\\[5mm]
 gelöscht oder auskommentiert wird.
 
+*** Deutsche Anführungszeihen statt umgekehrt französischer
+
+Wenn du lieber „das“ statt »der Standardanführungszeichen« haben
+möchtest, so kannst du in ~template/typographic_settings.tex~ die
+Zeile:
+: \usepackage[babel=true,strict=true,english=american,german=guillemets]{csquotes}
+auf folgende Zeile ändern:
+: \usepackage[babel=true,strict=true,english=american]{csquotes}
+
 *** Inhalte schreiben
 
 Da nun das Aussehen den formale VWA-Kriterien entspricht, fehlt nur
