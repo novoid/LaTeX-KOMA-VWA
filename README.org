@@ -139,7 +139,7 @@ Referenzen erstellt werden. Wenn die Zitate nur aus den (fett
 gesetzten) Zitatbezeichnungen (key) bestehen, hat es nicht
 funktioniert.
 
-*** Anpassungen „main.tex“
+*** Anpassungen: „main.tex“
 
 In der Datei „main.tex“ sind im obersten Bereich alle allgemeinen
 Einstellungen der Vorlage untergebracht. Dieser Teil beschreibt alle
@@ -296,7 +296,7 @@ Beilegen dieser Dokumente.
 Weitere optionale Bausteine (Glossar, Abkürzungsverzeichnis, ...)
 nach Belieben gemäß der Richtlinien einfügen.
 
-*** Anpassungen „colophon.tex“
+*** Anpassungen: „colophon.tex“
 
 Das [[https://de.wikipedia.org/wiki/Kolophon_%2528Schriftst%25C3%25BCck%2529][Kolophon]] beinhaltet derzeit Hinweise unter anderen auf den
 verwendeten Editor. Sofern kein [[https://de.wikipedia.org/wiki/Emacs][GNU/Emacs]] zum Einsatz kam, sollte
@@ -314,7 +314,7 @@ entsprechend zu übersetzen:
 :   zum Download bereit: \href{https://github.com/novoid/LaTeX-KOMA-template}{https://github.com/novoid/LaTeX-KOMA-template}
 : }
 
-*** Austausch des Logos für die Titelseite
+*** Austausch des Logos für die Titelseite: „figures/institution.pdf“
 
 In der Datei ~figures/institution.pdf~ befindet sich derzeit das Logo
 der TU Graz. Wenn du diese Datei ersetzt mit ~institution.pdf~ oder
@@ -331,7 +331,7 @@ Wird kein Schul-Logo verwendet, so muss die Datei
 : \includegraphics[width=3cm]{figures/institution}\\[5mm]
 gelöscht oder auskommentiert wird.
 
-*** Deutsche Anführungszeihen statt umgekehrt französischer
+*** Deutsche Anführungszeihen statt umgekehrt französischer: „template/typographic_settings.tex“
 
 Wenn du lieber „deutsche Anführungszeichen“ statt »den umgekehrt
 französischen Standardanführungszeichen« haben möchtest, so kannst du
