@@ -24,6 +24,30 @@ Wer jedoch bereits LaTeX-Wissen vorweisen kann, der wird vermutlich
 mit der hier beschriebenen Vorlage ein ausgezeichnetes Ergebnis mit
 minimalem Aufwand erreichen.
 
+** Wie sieht sowas aus?
+
+In diesem Repository sind zwei PDF-Dateien beigefügt. Die Datei
+[[https://github.com/novoid/LaTeX-KOMA-VWA/blob/master/VWA-Beispiel_-_150_Prozent_Zeilenabstand.pdf][VWA-Beispiel_-_150_Prozent_Zeilenabstand.pdf]] beinhaltet eine
+Beispiel-VWA mit dem erweiterten Zeilenabstand. Die Datei
+[[https://github.com/novoid/LaTeX-KOMA-VWA/blob/master/VWA-Beispiel_-_normaler_Zeilenabstand.pdf][VWA-Beispiel_-_normaler_Zeilenabstand.pdf]] beinhaltet die selbe VWA,
+nur mit einem normalen Zeilenabstand.
+
+Die [[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung]] bezeichnet Einstellungen wie »Zeilenabstand 1 1/2«
+als »wirk[t] positiv auf die Lesbarkeit«. Ich interpretiere das
+keinesfalls als eine Muss-Vorgabe und würde mich persönlich (in
+Absprache mit meinem Betreuer!) für einen normalen Zeilenabstand
+entscheiden.
+
+Für Umsteiger von Word oder anderen [[https://de.wikipedia.org/wiki/Wysiwyg][WYSIWYG]]-Programmen wirkt der LaTeX
+[[https://de.wikipedia.org/wiki/Satzspiegel][Satzspiegel]] (Text-zu-Ränder-Verhältnisse) ungewohnt großzügig. Dieser
+große Rand ist bei einspaltigen Dokumenten durchaus gewünscht und im
+Gegensatz zu einem 150-Prozent-Zeilenabstand fördert er die Lesbarkeit
+tatsächlich. Das Unterbewusstsein muss beim Zeilensprung weniger
+anstrengen aufwenden und daher kann sich der Leser mehr auf die
+Aufnahme des Inhaltes konzentrieren. Weiters haben Begutachter die
+Möglichkeit, den Rand für Notizen und Anmerkungen auf Papier zu
+nutzen.
+
 ** Kritik an diversen Dokumenten vom Ministerium
 
 Auf http://www.ahs-vwa.at/ gibt es zahlreiche Materialien, die das
