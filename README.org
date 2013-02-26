@@ -32,7 +32,7 @@ hierbei auch einige Kritikpunkte, die zu Problemen führen können,
 sofern man sich an die Materialien hält. Aus diesem Grunde sind in
 diesem Abschnitt einige Mängel kurz geschildert.
 
-*** Richtinien zu den Formalen Kriterien ([[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/547/VWA-Formale-Richtlinien.pdf][PDF]])
+*** Richtinien zu den formalen Kriterien ([[http://www.ahs-vwa.at/pluginfile.php/31/mod_data/content/547/VWA-Formale-Richtlinien.pdf][PDF]])
 
 Die formalen Kriterien sind nach typographischen Kriterien teilweise
 überholt: einseitiges Dokument, typographisch bedenkliche
@@ -83,8 +83,9 @@ möglichst schönen Ergebnisses interpretiert.
 ** Generelles zu dieser Vorlage
 
 Dieses github-Repository enthält keine VWA-Vorlage. Allerdings folgt
-weiter unten eine Anleitung, womit eine andere professionelle
-LaTeX-Vorlage für eine VWA in wenigen einfachen Schritten adaptiert.
+weiter unten eine Anleitung, womit eine andere, professionelle
+LaTeX-Vorlage für eine VWA in einfachen Schritten (Kochrezept)
+adaptiert wird.
 
 Auf https://github.com/novoid/LaTeX-KOMA-template wird eine Vorlage
 bereitgestellt, die (nicht nur) von vielen Studierenden an der [[http://www.TUGraz.at][TU Graz]]
@@ -118,7 +119,7 @@ negativ zu beeinträchtigen, sollen wenige Abschnitte der
 Dokumentation gelesen werden.
 
 Hier ist noch keine aktive Änderung der Vorlage notwendig, da für
-eine VWA, alle Anpassungen in diesem Abschnitt erklärt werden.
+eine VWA alle Anpassungen in diesem Abschnitt erklärt werden.
 
 *** Prüfen, ob „biber“ funktioniert
 
@@ -337,10 +338,10 @@ noch das Wichtigste: der Inhalt.
 
 Hier wird empfohlen, sich vorerst nur auf die Erstellung des Textes
 zu konzentrieren. Das ständige Kompilieren des PDF-Ergebnisses lenkt
-dabei grossteils nur ab und sollte daher nur sporadisch - zum
+dabei großteils nur ab und sollte daher nur sporadisch - zum
 Beispiel am Ende eines Kapitels - erledigt werden.
 
-Wir wünsche gutes Gelingen bei der VWA!
+Ich wünsche gutes Gelingen bei der VWA!
 
 ** Best Practice
 
@@ -350,9 +351,9 @@ eine wichtige Quelle fehlt, so [[https://github.com/novoid/LaTeX-KOMA-VWA#wie-ka
 
 *** Wörter zählen
 
-Die Vorgabe laut ist, dass die Arbeit „zirka 40.000 bis 60.000 Zeichen,
-inklusive Leerzeichen, exklusive Vorwort, Inhalts- Literatur- und
-Abkürzungsverzeichnis“ ([[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung]]) umfassen soll.
+Die Vorgabe laut [[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung]] ist, dass die Arbeit „zirka 40.000 bis
+60.000 Zeichen, inklusive Leerzeichen, exklusive Vorwort, Inhalts-
+Literatur- und Abkürzungsverzeichnis“ umfassen soll.
 
 Hierzu werden alle entsprechenden ~tex~-Dateien in einem Text-Editor
 geöffnet, der die Zeichen zählen kann. Die Summe entsprechender Werte
@@ -380,7 +381,7 @@ folgende Reihenfolge vor:
    - Auf [[latex.tugraz.at/dokumentation/links][Webseiten wie diese]] werden gute Dokumentationsquellen
      verlinkt. Ein [[http://latex.tugraz.at/dokumentation/buchempfehlungen][LaTeX-Buch]] kann man kaufen, muss man aber
      nicht. Es gibt genügend LaTeX-Hilfestellungen im Internet,
-     sofern man des Englischem mächtig ist.
+     sofern man des Englischen mächtig ist.
 4. Experten fragen
    - Wer sich mit dem [[https://de.wikipedia.org/wiki/Usenet][Usenet]] auskennt, der kann zum Beispiel in
      news:tu-graz.latex zahlreiche Experten mit einer gut
@@ -400,10 +401,10 @@ auf http://minimalbeispiel.de/ erklärt.
 Witzigerweise kommt man dabei drauf, dass durch die Erstellung eines
 Minimalbeispiels, die Lösung zumeist selbst entdeckt wird.
 
-LaTeX-Hindernisse sind ärgerlich. Jedoch ist das, was man zur
-deren Beseitigung lernt, ein Wissen, das Bestand hat. Jeder
-LaTeX-Experte ist nicht von vorn herein Experte gewesen. Sie haben
-durch ihre Fehler nur bereits mehr Erfahrung gemacht.
+LaTeX-Hindernisse sind ärgerlich. Keine Frage. Jedoch ist das, was man
+zur deren Beseitigung lernt, Wissen, das Bestand hat. Jeder
+LaTeX-Experte ist nicht von vornherein Experte gewesen. Sie haben
+durch ihre Fehler nur bereits mehr Erfahrung als du gemacht.
 
 ** Wie kann ich Fehler oder Vorschläge zu dieser Vorlage kommunizieren?
 
@@ -417,5 +418,6 @@ Sofern es mein Zeitbudget erlaubt, setze ich Verbesserungen gerne um.
 
 ** Lizenz
 
-„Vorwissenschaftliche Arbeit mit LaTeX“ is licensed under a [[https://creativecommons.org/licenses/by-nc-sa/3.0/][Creative
-Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License]].
+„Vorwissenschaftliche Arbeit mit LaTeX“ is licensed under a
+[[https://creativecommons.org/licenses/by-nc-sa/3.0/][Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 Unported License]].
