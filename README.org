@@ -32,8 +32,8 @@ Beispiel-VWA mit dem erweiterten Zeilenabstand. Die Datei
 [[https://github.com/novoid/LaTeX-KOMA-VWA/blob/master/VWA-Beispiel_-_normaler_Zeilenabstand.pdf][VWA-Beispiel_-_normaler_Zeilenabstand.pdf]] beinhaltet die selbe VWA,
 nur mit einem normalen Zeilenabstand.
 
-Die [[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung]] bezeichnet Einstellungen wie »Zeilenabstand 1 1/2«
-als »wirk[t] positiv auf die Lesbarkeit«. Ich interpretiere das
+Die [[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung]] bezeichnet Einstellungen wie „Zeilenabstand 1 1/2“
+als „wirk[t] positiv auf die Lesbarkeit“. Ich interpretiere das
 keinesfalls als eine Muss-Vorgabe und würde mich persönlich (in
 Absprache mit meinem Betreuer!) für einen normalen Zeilenabstand
 entscheiden.
@@ -384,8 +384,8 @@ eine wichtige Quelle fehlt, so [[https://github.com/novoid/LaTeX-KOMA-VWA#wie-ka
 
 *** Wörter zählen
 
-Die Vorgabe laut [[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung]] ist, dass die Arbeit „zirka 40.000 bis
-60.000 Zeichen, inklusive Leerzeichen, exklusive Vorwort, Inhalts-
+Die Vorgabe laut [[http://www.bmukk.gv.at/medienpool/22700/reifepruefung_ahs_lfvwa.pdf][Handreichung]] ist, dass die Arbeit „zirka 40.000
+bis 60.000 Zeichen, inklusive Leerzeichen, exklusive Vorwort, Inhalts-
 Literatur- und Abkürzungsverzeichnis“ umfassen soll.
 
 Hierzu werden alle entsprechenden ~tex~-Dateien in einem Text-Editor
