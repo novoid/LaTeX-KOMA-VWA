@@ -290,16 +290,11 @@ entsprechend in der vorletzten Zeile oben anpassen.
 Abweichend von den VWA-Vorgaben hat die Vorlage eine andere generelle
 Struktur. Die dadurch notwendigen Anpassungen sind folgende:
 
-Die Zeilen für den Abstract ...
+Das optionale Vorwort kann hinter dem Abstract gemäß dem
+Abstract-Beispiel erstellt werden"
 : \cleardoublepage
-: \addcontentsline{toc}{chapter}{Abstract}
-: \include{abstract}              %% Abstract
-... müssen vor das Inhaltsverzeichnis ...
-: \tableofcontents
-... verschoben werden.
-
-Das optionale Vorwort kann dahinter gemäß dem Abstract-Beispiel
-erstellt werden.
+: \addcontentsline{toc}{chapter}{Vorwort}
+: \include{Vorwort}              %% Abstract
 
 Das Abbildungsverzeichnis ...
 : \listoffigures
