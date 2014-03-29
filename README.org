@@ -336,7 +336,7 @@ entsprechend zu übersetzen:
 *** Austausch des Logos für die Titelseite: „figures/institution.pdf“
 
 In der Datei ~figures/institution.pdf~ befindet sich derzeit das Logo
-der TU Graz. Wenn du diese Datei ersetzt mit ~institution.pdf~ oder
+der TU Graz. Wenn du diese Datei mit ~institution.pdf~ oder
 ~institution.png~ aus deinem Schul-Logo ersetzt, so wird dies auf der
 Titelseite berücksichtigt.
 
