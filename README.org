@@ -232,6 +232,13 @@ biblatex]].
 Die Titelseite wird gemäß folgender Zeile angepasst:
 : \newcommand{\mytitlepage}{template/title_VWA}
 
+**** Seitennummerierung
+
+Um eine durchgehend richtige (numerische) Seitennummerierung zu erhalten, entfernt man die Zeilen
+: /frontmatter 
+und 
+: /mainmatter
+
 **** Metadaten
 
 Startend mit der Zeile
